@@ -11,10 +11,16 @@ Its an intermediate area useful for git to track changes between commits
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+By working in a particular logical change, we have to stage a change only when we have finished. Then we can compare with repository and then comitting.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When you want to split development in two lines, doing different changes separately not affecting one to another
+
 How do the diagrams help you visualize the branch structure?
+
+They show the commits ordered in commits before the branch was created, commits of the branch an d commits after the branch was created.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
