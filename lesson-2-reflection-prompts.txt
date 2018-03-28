@@ -25,5 +25,7 @@ They show the commits ordered in commits before the branch was created, commits 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+We mix codes from the two branches. We represent it that way because this creates a new commit in the destination branch wich parents are the last commits of the previous branch tips.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
